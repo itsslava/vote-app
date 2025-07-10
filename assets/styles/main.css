@@ -1,0 +1,23 @@
+:root {
+	--font: 'Roboto', sans-serif;
+	--color-white: #fff;
+	--color-black: #191919;
+	--color-black-hover: #2d2c2c;
+	--color-black-light: #292929;
+	--color-dark-gray: #757575;
+	--color-light-gray: #e6e6e6;
+}
+
+body {
+	font-family: var(--font);
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	font-family: inherit;
+}
